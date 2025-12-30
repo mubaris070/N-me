@@ -162,7 +162,7 @@ function Home() {
           {/* RIGHT MOCKUP */}
           <div className="relative flex flex-col items-center justify-center bg-transparent p-4">
             <div
-              className="relative w-full max-w-[340px] sm:max-w-[420px] md:max-w-[600px] mt-[170px] md:mt-[250px]
+              className="relative w-full max-w-[340px] sm:max-w-[420px] md:max-w-[600px] mt-[170px] md:mt-[220px]
                          h-[320px] sm:h-[360px] md:h-auto md:aspect-[600/462]
                          md:bg-gradient-to-b md:from-transparent md:to-[#A4C2FF20]
                          flex justify-center items-end pb-12"
@@ -201,8 +201,8 @@ function Home() {
                 <img
                   src={iphone}
                   alt="iPhone Frame"
-                  className="relative z-20  w-[280px] sm:w-[700px] md:w-[350px] lg:w-[540px]
-                                             h-[450px] sm:h-[800px] md:h-[460px] lg:h-[630px]
+                  className="relative z-20  w-[280px] sm:w-[700px] md:w-[350px] lg:w-[480px]
+                                             h-[450px] sm:h-[800px] md:h-[460px] lg:h-[600px]
                              drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)]"
                 />
                 

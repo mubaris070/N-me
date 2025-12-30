@@ -58,7 +58,7 @@ function Features(){
       Platform Capabilities
     </p>
 
-    <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-relaxed md:leading-normal">
+    <h1 className="text-4xl md:text-[53px] font-bold text-gray-900 leading-relaxed md:leading-normal">
       Everything you <span className="block text-gray-500">need, <span className="text-gray-900">connected</span></span>
       <span className="text-gray-500">in one ecosystem.</span>
     </h1>

@@ -53,13 +53,13 @@ function submit(e){
     toast.error("Form is not valid")
     return
   }
-    axios.post("http://localhost:3001/users",{
-      username: text.username,
-        email: text.email,
-        phone:text.phone,
-        message:text.message,
-    })
-    .then(()=>{
+    // axios.post("http://localhost:3001/users",{
+    //   username: text.username,
+    //     email: text.email,
+    //     phone:text.phone,
+    //     message:text.message,
+    // })
+    // .then(()=>{
       toast.success("Message sent successfully")
       setText({
         username:'',
@@ -68,11 +68,10 @@ function submit(e){
         message:''
       })
       setErrors({});
-    })
-
-     .catch(() => {
-    toast.error("Failed to send message");
-  })
+    // })
+  //    .catch(() => {
+  //   toast.error("Failed to send message");
+  // })
 }
 
 

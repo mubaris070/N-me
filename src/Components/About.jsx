@@ -80,7 +80,7 @@ function About(){
     </p>
 
         
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-normal">
+        <h1 className="text-3xl md:text-5xl lg:text-[51px] font-bold text-gray-900 leading-normal">
          All Your Important Things  <br /> 
           <span className="text-blue-500">One Smart App.</span>
         </h1>
