@@ -108,17 +108,17 @@ function Header() {
           >
             <div className="flex flex-col gap-1.5">
               <span
-                className={`w-6 h-1 bg-gray-900 transition ${
+                className={`w-6 h-0.5 bg-gray-900 transition ${
                   isMobileMenuOpen && "rotate-45 translate-y-2"
                 }`}
               />
               <span
-                className={`w-6 h-1 bg-gray-900 transition ${
+                className={`w-6 h-0.5 bg-gray-900 transition ${
                   isMobileMenuOpen && "opacity-0"
                 }`}
               />
               <span
-                className={`w-6 h-1 bg-gray-900 transition ${
+                className={`w-6 h-0.5 bg-gray-900 transition ${
                   isMobileMenuOpen && "-rotate-45 -translate-y-2"
                 }`}
               />

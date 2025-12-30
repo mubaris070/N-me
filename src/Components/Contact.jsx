@@ -110,9 +110,17 @@ function submit(e){
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 absolute md:left-0 top-80 md:right-0 px-6">
+<div className="
+  mx-auto
+  grid grid-cols-1 md:grid-cols-3
+  gap-8
+  relative md:absolute
+  md:left-0 md:right-0 md:top-80
+  justify-items-center md:justify-items-stretch
+  px-4
+">
           {offices.map((office, idx) => (
-            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-left text-gray-800 border border-gray-100">
+            <div key={idx} className="bg-white rounded-2xl px-6 py-8 shadow-xl text-left text-gray-800 border border-gray-100">
               <h3 className="text-xl font-bold mb-6">{office.city} Office</h3>
               <div className="space-y-4 text-sm text-gray-500">
                 <div className="flex items-start gap-3">
@@ -125,7 +133,7 @@ function submit(e){
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail size={18} className="text-orange-300 shrink-0" />
-                  <p>{office.email}</p>
+                  <p >{office.email}</p>
                 </div>
               </div>
               <button className="cursor-pointer mt-8 text-sm font-bold border-b-2 border-orange-200 pb-1 hover:border-orange-400 transition-colors">
