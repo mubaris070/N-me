@@ -73,12 +73,10 @@ function Home() {
 </p>
 
 
-            {/* DOWNLOAD BUTTONS – SINGLE LINE ON MOBILE */}
             <div
               className="flex flex-row sm:flex-row gap-3 md:gap-8
                          mt-10 md:my-10 justify-center md:justify-start"
             >
-              {/* APP STORE */}
               <a
                 href="https://apps.apple.com"
                 className="flex items-center bg-black
@@ -203,9 +201,11 @@ function Home() {
                 <img
                   src={iphone}
                   alt="iPhone Frame"
-                  className="relative z-20 w-[690px] md:w-[480px] h-[500px] md:h-[600px]
+                  className="relative z-20  w-[270px] sm:w-[700px] md:w-[350px] lg:w-[540px]
+                                             h-[450px] sm:h-[800px] md:h-[460px] lg:h-[630px]
                              drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)]"
                 />
+                
               </motion.div>
             </div>
           </div>

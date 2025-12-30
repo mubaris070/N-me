@@ -127,10 +127,10 @@ function Header() {
         </div>
 
 <div
-  className={`md:hidden mt-3 rounded-3xl backdrop-blur-xl bg-white/50 shadow-xl border border-white/20
+  className={`md:hidden mt-3 mb-2 rounded-3xl backdrop-blur-xl bg-white/50 shadow-xl border border-white/20
     overflow-hidden
-    transition-all duration-300 ease-in-out
-    ${isMobileMenuOpen ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"}
+    transition-all duration-500 ease-in-out
+    ${isMobileMenuOpen ? "h-[270px] opacity-100" : "max-h-0 opacity-0"}
   `}
 >
 <nav className="flex flex-col gap-4">

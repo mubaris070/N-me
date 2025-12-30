@@ -167,12 +167,12 @@ function submit(e){
   {/* LEFT CONTENT */}
   <div className="flex flex-col mt-6 md:mt-16 items-center md:items-start text-center md:text-left">
 
-    <p className="relative font-bold text-center md:text-[20px] text-gray-800 w-fit mb-4">
+    <p className="relative font-bold text-center md:text-[20px] text-gray-800 w-fit mb-8">
       Get In Touch
 
       <svg
         viewBox="0 0 100 100"
-        className="absolute top-0 right-2 w-16 h-16 md:w-24 md:h-20 rotate-45"
+        className="absolute top-0 right-4 w-16 h-16 md:w-24 md:h-21 rotate-45"
         fill="none"
         aria-hidden="true"
       >

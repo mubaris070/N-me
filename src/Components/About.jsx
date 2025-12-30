@@ -44,11 +44,19 @@ function About(){
           />
         </div>
 
-            <svg 
-    viewBox="0 0 100 100" 
-    className="absolute -right-7 md:right-14 top-97 md:top-132 w-14 md:w-24 h-14 md:h-24 transform rotate-180"
-    fill="none" 
-  >
+<svg 
+  viewBox="0 0 100 100"
+  className="
+    absolute
+    -right-5 md:right-14
+    top-[395px] md:top-[536px]
+    w-14 md:w-24
+    h-14 md:h-24
+    rotate-180
+  "
+  fill="none"
+>
+
     <path 
       d="M20,80 Q50,20 90,10" 
       className="stroke-red-400" 
@@ -68,10 +76,6 @@ function About(){
       strokeLinecap="round"
     />
   </svg>
-
-             <svg className="absolute -left-15 top-30 text-orange-500 w-24 h-24 -z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 4c0 1.105 4.477 2 10 2s10-.895 10-2" />
-        </svg>
       </div>
 
 
