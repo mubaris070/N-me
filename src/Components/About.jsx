@@ -12,13 +12,40 @@ function About(){
 
       <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-start">
 
-        <div className="relative z-10 w-[300px] h-[400px] md:w-[450px] md:h-[550px] overflow-hidden rounded-t-full rounded-bl-full shadow-2xl">
-          <img 
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1000" 
-            alt="Student studying" 
-            className="w-full h-full object-cover"
-          />
-        </div>
+<div className="relative z-10 inline-block">
+
+  {/* IMAGE */}
+  <div className="w-[300px] h-[400px] md:w-[450px] md:h-[550px]
+                  overflow-hidden rounded-t-full rounded-bl-full shadow-2xl">
+    <img
+      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1000"
+      alt="Student studying"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* SVG – OUTSIDE BUT ATTACHED */}
+  <svg
+    viewBox="0 0 100 100"
+    className="
+      absolute
+      -right-12
+      -bottom-11
+      md:-right-19
+      md:-bottom-20
+      w-14 md:w-24
+      h-14 md:h-24
+      rotate-180
+    "
+    fill="none"
+  >
+    <path d="M20,80 Q50,20 90,10" className="stroke-red-400" strokeWidth="3" strokeLinecap="round" />
+    <path d="M40,90 Q65,40 95,30" className="stroke-red-400" strokeWidth="3" strokeLinecap="round" />
+    <path d="M60,100 Q80,60 100,55" className="stroke-red-400" strokeWidth="3" strokeLinecap="round" />
+  </svg>
+
+</div>
+
 
 
      <div className="absolute -top-4 right-4 md:right-12 z-20
@@ -44,38 +71,6 @@ function About(){
           />
         </div>
 
-<svg 
-  viewBox="0 0 100 100"
-  className="
-    absolute
-    -right-5 md:right-14
-    top-[395px] md:top-[536px]
-    w-14 md:w-24
-    h-14 md:h-24
-    rotate-180
-  "
-  fill="none"
->
-
-    <path 
-      d="M20,80 Q50,20 90,10" 
-      className="stroke-red-400" 
-      strokeWidth="3" 
-      strokeLinecap="round"
-    />
-    <path 
-      d="M40,90 Q65,40 95,30" 
-      className="stroke-red-400" 
-      strokeWidth="3" 
-      strokeLinecap="round"
-    />
-    <path 
-      d="M60,100 Q80,60 100,55" 
-      className="stroke-red-400" 
-      strokeWidth="3" 
-      strokeLinecap="round"
-    />
-  </svg>
       </div>
 
 
