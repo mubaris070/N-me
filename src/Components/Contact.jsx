@@ -106,13 +106,13 @@ function submit(e){
           <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6">Get In Touch</h1>
           <p className="text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Let's connect! Whether it's feedback, inquries, or collabaration ideas, <br />
-            <span>we'd love to hear from you</span>
+            <span>we'd love to hear from you.</span>
           </p>
         </div>
 
-        <div className="max-w-6xl md:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 absolute left-0 top-80 md:right-0 -bottom-32 text-center pl-10 md:px-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 absolute md:left-0 top-80 md:right-0 px-6">
           {offices.map((office, idx) => (
-            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-center text-gray-800 border border-gray-100">
+            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-left text-gray-800 border border-gray-100">
               <h3 className="text-xl font-bold mb-6">{office.city} Office</h3>
               <div className="space-y-4 text-sm text-gray-500">
                 <div className="flex items-start gap-3">
