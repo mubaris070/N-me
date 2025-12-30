@@ -110,30 +110,50 @@ function submit(e){
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 absolute left-0 top-80 md:right-0 -bottom-32 px-6">
-          {offices.map((office, idx) => (
-            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-center text-gray-800 border border-gray-100">
-              <h3 className="text-xl font-bold mb-6">{office.city} Office</h3>
-              <div className="space-y-4 text-sm text-gray-500">
-                <div className="flex items-start gap-3">
-                  <MapPin size={18} className="text-orange-300 mt-1 shrink-0" />
-                  <p>{office.address}</p>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone size={18} className="text-orange-300 shrink-0" />
-                  <p>{office.phone}</p>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Mail size={18} className="text-orange-300 shrink-0" />
-                  <p>{office.email}</p>
-                </div>
-              </div>
-              <button className="cursor-pointer mt-8 text-sm font-bold border-b-2 border-orange-200 pb-1 hover:border-orange-400 transition-colors">
-                Find Us On Map
-              </button>
-            </div>
-          ))}
+  <div
+  className="
+    max-w-6xl mx-auto
+    grid grid-cols-1 md:grid-cols-3 gap-8
+    absolute
+    left-1/2 -translate-x-1/2
+    top-80
+    md:left-0 md:translate-x-0
+    md:right-0
+    md:-bottom-32
+    px-6
+  "
+>
+  {offices.map((office, idx) => (
+    <div
+      key={idx}
+      className="bg-white rounded-2xl p-8 shadow-xl text-center text-gray-800 border border-gray-100"
+    >
+      <h3 className="text-xl font-bold mb-6">{office.city} Office</h3>
+
+      <div className="space-y-4 text-sm text-gray-500">
+        <div className="flex items-start gap-3">
+          <MapPin size={18} className="text-orange-300 mt-1 shrink-0" />
+          <p>{office.address}</p>
         </div>
+
+        <div className="flex items-center gap-3">
+          <Phone size={18} className="text-orange-300 shrink-0" />
+          <p>{office.phone}</p>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <Mail size={18} className="text-orange-300 shrink-0" />
+          <p>{office.email}</p>
+        </div>
+      </div>
+
+      <button className="cursor-pointer mt-8 text-sm font-bold border-b-2 border-orange-200 pb-1 hover:border-orange-400 transition-colors">
+        Find Us On Map
+      </button>
+    </div>
+  ))}
+</div>
+
       </section>
 <section
   className="
