@@ -112,7 +112,7 @@ function submit(e){
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 absolute left-0 top-80 md:right-0 -bottom-32 px-6">
           {offices.map((office, idx) => (
-            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-left text-gray-800 border border-gray-100">
+            <div key={idx} className="bg-white rounded-2xl p-8 shadow-xl text-center text-gray-800 border border-gray-100">
               <h3 className="text-xl font-bold mb-6">{office.city} Office</h3>
               <div className="space-y-4 text-sm text-gray-500">
                 <div className="flex items-start gap-3">
