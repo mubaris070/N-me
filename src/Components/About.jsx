@@ -1,5 +1,7 @@
   import React from 'react';
 import { Element } from 'react-scroll';
+import logo from "../assets/nmeblack.png";
+
 
 
 function About(){
@@ -26,7 +28,7 @@ function About(){
                 bg-linear-to-br from-[#E4EEFF] to-[#7D99FF]
                 flex items-center justify-center">
   <img 
-    src="nmeblack.png" 
+    src={logo}
     alt="Traveler"
     className="w-[70px] md:w-[100px] h-[70px] md:h-[100px] object-contain"
   />
@@ -44,7 +46,7 @@ function About(){
 
             <svg 
     viewBox="0 0 100 100" 
-    className="absolute -right-7 md:right-14 top-97 md:top-114 w-14 md:w-24 h-14 md:h-24 transform rotate-180"
+    className="absolute -right-7 md:right-14 top-97 md:top-132 w-14 md:w-24 h-14 md:h-24 transform rotate-180"
     fill="none" 
   >
     <path 

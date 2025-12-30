@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import logo from "../assets/nmeblack.png";
+
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +33,7 @@ function Header() {
           >
           <a href="#">
   <img
-    src="nmeblack.png"
+    src={logo}
     alt="NME Logo"
     class="
       absolute z-20

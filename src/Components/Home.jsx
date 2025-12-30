@@ -4,6 +4,11 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Users, Building2, MapPin } from "lucide-react";
 import { Element } from "react-scroll";
+import heroVideo from "../assets/nmevd.mp4";
+import iphone from "../assets/iphone.png";
+import playstore from "../assets/playstore.png";
+
+
 
 function Home() {
   const [show, setShow] = useState(false);
@@ -106,7 +111,7 @@ function Home() {
                            hover:bg-black/70"
               >
                 <img
-                  src="/playstore.png"
+                  src={playstore}
                   alt="Play Store"
                   className="h-[18px] md:h-[24px]"
                 />
@@ -121,7 +126,6 @@ function Home() {
               </a>
             </div>
 
-            {/* STATS – SINGLE LINE ON MOBILE */}
             <div className="py-8">
               <div
                 className="cursor-pointer max-w-6xl mx-auto
@@ -186,7 +190,7 @@ function Home() {
                 <div className="absolute inset-0 z-10 p-[2.5%]">
                   <div className="w-full h-full overflow-hidden rounded-[2.2rem] md:rounded-[3.2rem] bg-black">
                     <video
-                      src="/videos/nmevd.mp4"
+                      src={heroVideo}
                       autoPlay
                       muted
                       loop
@@ -197,7 +201,7 @@ function Home() {
                 </div>
 
                 <img
-                  src="/iphone.png"
+                  src={iphone}
                   alt="iPhone Frame"
                   className="relative z-20 w-[690px] md:w-[480px] h-[500px] md:h-[600px]
                              drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)]"

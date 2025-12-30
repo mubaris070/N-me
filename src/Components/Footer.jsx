@@ -1,4 +1,6 @@
   import React from 'react';
+  import logo from "../assets/nmeblack.png";
+
 
 
 function Footer(){
@@ -22,7 +24,7 @@ function Footer(){
 <div className="flex items-center gap-4 mb-4
              justify-center md:justify-start md:text-left">
 
-  <img src="nmeblack.png"
+  <img src={logo}
        className="w-[64px] h-[46px] md:w-[77px] md:h-[56px]" />
 
   <h2 className="font-poppins text-2xl font-semibold text-white">
