@@ -145,6 +145,7 @@ function submit(e){
 <section
   className="
     flex flex-col md:flex-row
+
     gap-16 md:gap-20
     px-4 md:px-0
     md:pl-[230px]
@@ -163,7 +164,6 @@ function submit(e){
     `,
   }}
 >
-  {/* LEFT CONTENT */}
   <div className="flex flex-col mt-6 md:mt-16 items-center md:items-start text-center md:text-left">
 
     <p className="relative font-bold text-center md:text-[20px] text-gray-800 w-fit mb-8">
@@ -209,7 +209,13 @@ function submit(e){
   </div>
 
 
-<div className="w-full max-w-md bg-[#f0f9f6] p-8 rounded-2xl shadow-sm border border-emerald-50">
+<div className="
+  w-full max-w-md
+  mx-auto md:mx-0
+  bg-[#f0f9f6] p-8
+  rounded-2xl shadow-sm
+  border border-emerald-50
+">
         <form onSubmit={submit} className="space-y-4">
           
           <div className="relative">
