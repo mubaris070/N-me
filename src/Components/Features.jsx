@@ -70,7 +70,7 @@ function Features(){
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-amber-100/50 border-amber-100 rounded-sm overflow-hidden shadow-2xl shadow-amber-900/5 mb-10">
         {features.map((feature) => {
-          const Icon = feature.icon; // Capitalize component
+          const Icon = feature.icon; 
           return (
             <div
               key={feature.id}

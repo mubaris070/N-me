@@ -7,9 +7,9 @@ import { Element } from 'react-scroll';
 
 const Contact = () => {
   const offices = [
-    { city: 'Cochi', address: '6 Rue de Musset, Auteuil,kerala', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
-    { city: 'Coimbatore', address: '6 Rue de Musset, Auteuil, Tamilnadu', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
-    { city: 'Bangalore', address: '6 Rue de Musset, Auteuil, Karnataka', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
+    { city: 'Cochi', address: '6 Rue de Musset, Cochi,kerala', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
+    { city: 'Coimbatore', address: '6 Rue de Musset, Gandhipuram, Tamilnadu', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
+    { city: 'Bangalore', address: '6 Rue de Musset, Bangalore, Karnataka', phone: '+88 (827) 672 102', email: 'cybexeltechnologies@gmail.com' },
   ];
 
 
@@ -115,7 +115,7 @@ function submit(e){
   gap-8
   relative md:absolute
   md:left-0 md:right-0 md:top-80
-  justify-items-center md:justify-items-stretch
+ md:justify-items-stretch
   px-4
 ">
           {offices.map((office, idx) => (

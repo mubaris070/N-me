@@ -7,8 +7,6 @@ function Footer(){
     return(
         <>
 
-
-
 <div
   className="bg-black  min-h-[500px]
              border-x-3 border-b-3 border-white

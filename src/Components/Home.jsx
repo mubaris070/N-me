@@ -99,7 +99,6 @@ function Home() {
                 </div>
               </a>
 
-              {/* PLAY STORE */}
               <a
                 href="https://play.google.com/store/search?q=n-me+app&c=apps"
                 className="flex items-center bg-black
@@ -159,7 +158,7 @@ function Home() {
             </div>
           </div>
 
-          {/* RIGHT MOCKUP */}
+
           <div className="relative flex flex-col items-center justify-center bg-transparent p-4">
             <div
               className="relative w-full max-w-[340px] sm:max-w-[420px] md:max-w-[600px] mt-[170px] md:mt-[220px]
