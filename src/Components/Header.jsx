@@ -37,11 +37,12 @@ function Header() {
     alt="NME Logo"
     class="
       absolute z-20
-      top-6 left-10     
-      w-[80px]              
+      top-6 left-8     
+      w-[70px]              
       h-auto
-      sm:w-[110px]           
-      md:w-[60px]     
+      sm:w-[110px]  
+      md:top-4 md:left-11     
+      md:w-[67px]     
       object-contain
     "
   />
