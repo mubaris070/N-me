@@ -50,14 +50,14 @@ function Home() {
   return (
     <Element name="home">
       <div className="relative min-h-screen">
-        <div className="relative z-10 flex flex-col md:flex-row items-center md:ml-6 md:items-start justify-start min-h-screen px-6 gap-6 pt-40">
+        <div className="relative z-10 flex flex-col md:flex-row items-center md:ml-10 md:items-start justify-start min-h-screen px-6 gap-6 pt-40">
           {/* LEFT CONTENT */}
           <div className="w-full md:w-1/2">
             <p className="rounded-3xl py-2 bg-white/50 text-[13px] text-gray-700 font-bold w-[220px] text-center mb-10">
               Your Local Business Network
             </p>
 
-           <div className="text-center md:text-left space-y-2 md:space-y-10 mb-8">
+           <div className="text-center md:text-left space-y-2 md:space-y-10 mb-4">
   <h1 className="font-heading text-4xl md:text-5xl font-bold text-gray-900 leading-relaxed">
     Connect With <span className="text-blue-500">Local</span>
     <br className="hidden md:block" /> {/* line break after "Local" on mobile */}
@@ -75,7 +75,7 @@ function Home() {
 
             <div
               className="flex flex-row sm:flex-row gap-3 md:gap-8
-                         mt-10 md:my-10 justify-center md:justify-start"
+                         mt-10 md:my-6 justify-center md:justify-start"
             >
               <a
                 href="https://apps.apple.com"
@@ -161,7 +161,7 @@ function Home() {
 
           <div className="relative flex flex-col items-center justify-center bg-transparent p-4">
             <div
-              className="relative w-full max-w-[340px] sm:max-w-[420px] md:max-w-[600px] mt-[170px] md:mt-[220px]
+              className="relative w-full max-w-[340px] sm:max-w-[420px] md:max-w-[600px] mt-[180px] md:mt-[210px]
                          h-[320px] sm:h-[360px] md:h-auto md:aspect-[600/462]
                          md:bg-gradient-to-b md:from-transparent md:to-[#A4C2FF20]
                          flex justify-center items-end pb-12"
@@ -192,7 +192,7 @@ function Home() {
                       muted
                       loop
                       playsInline
-                      className="w-full h-full object-cover object-top"
+                      className="w-full h-full object-top"
                     />
                   </div>
                 </div>
@@ -200,7 +200,7 @@ function Home() {
                 <img
                   src={iphone}
                   alt="iPhone Frame"
-                  className="relative z-20  w-[280px] sm:w-[700px] md:w-[350px] lg:w-[480px]
+                  className="relative z-20  w-[260px] sm:w-[700px] md:w-[350px] lg:w-[450px]
                                              h-[450px] sm:h-[800px] md:h-[460px] lg:h-[600px]
                              drop-shadow-[0_35px_35px_rgba(0,0,0,0.6)]"
                 />

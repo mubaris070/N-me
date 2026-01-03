@@ -37,8 +37,8 @@ function Header() {
     alt="NME Logo"
     class="
       absolute z-20
-      top-6 left-7      
-      w-[50px]              
+      top-6 left-10     
+      w-[80px]              
       h-auto
       sm:w-[110px]           
       md:w-[60px]     
@@ -47,7 +47,7 @@ function Header() {
   />
 </a>
           </Link>
- <nav className="hidden md:flex items-center gap-10">
+ <nav className="hidden md:flex items-center gap-8">
       <Link
         to="home"
         smooth={true}

@@ -52,7 +52,7 @@ function Features(){
 
     return(
     <Element name="features">
-   <div className=" md:ml-6 min-h-screen px-6 mt-10 gap-6">
+   <div className=" md:ml-10 min-h-screen px-6 mt-10 gap-6">
   <div>
     <p className="rounded-3xl py-2 bg-white/50 text-[14px] text-gray-700 font-bold w-[190px] text-center mb-10">
       Platform Capabilities
